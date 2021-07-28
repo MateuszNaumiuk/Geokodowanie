@@ -1,0 +1,222 @@
+/* Navigator */
+.body{
+    font-family: 'Open Sans', sans-serif;
+}
+.navbar img /* logo */ {
+    width: 30%;
+}
+.navbar-brand{
+    padding-left: 5%;
+}
+.nav-item img{
+    width: 80%;
+}
+.nav-item a{
+    color:black !important;
+}
+@media (max-width: 465px){
+    .navbarimg2{
+        width: 5% !important;
+        margin-bottom: 100px;
+        margin-left: -60px;
+    }
+}
+
+
+/* IMG */
+.imgSrodek{
+    background-image: url("img/tloTop.png");
+    background-size: cover;
+    margin-top: -100px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 32%;
+}
+.srodekTop{
+    margin-top: 188px;
+}
+.imgSrodek p {
+    font-size: 58px;
+    margin-right: 80%;
+    margin-top: -350px;
+}
+@media (max-width: 765px){
+    .srodekTop{
+        margin-top: 100px;
+        margin-bottom: 200px;
+    }
+    .imgSrodek p {
+    font-size: 40px;
+    margin-right: 80%;
+    margin-top: -450px;
+    }
+}
+/* Standaryzacja */
+.standar{
+    background-image: url("img/standar_img.png");
+    background-size: cover;
+    background-position: center;
+    padding-top: 35%;
+    margin-bottom: 1%;
+}
+.standar img{
+    width: 100% !important;
+} 
+.standarTekst h3{
+    margin-top: -520px;
+}
+.standarKola img{
+    margin-top: -140px;
+    margin-left: -15px;
+    width: 70% !important;
+}
+.standarKola p{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.standarKolaCzesc{
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+}
+@media (max-width: 765px){
+    .standarTekst h3{
+        margin-top: 0px;
+    }
+    .standarKola img{
+        padding-top: 150px !important;
+        padding-left: 60px;
+    }
+    .kolo_img{
+        margin-left: -250px !important;
+    }
+    .cale_kolo{
+        margin-left: -150px !important;
+    }
+}
+
+@keyframes rotate {
+    to {transform: rotateZ(360deg);}
+  }
+
+.kolo:hover{
+    animation-name: rotate;
+    animation-duration: 1s;
+}
+.cale_kolo{
+    margin-left: -20px;
+}
+
+/* Demo */
+.demo{
+    background-image: url("img/demoTlo3.png");
+    background-size: cover;
+    width: auto;
+    height: auto;
+    padding-bottom: 22%;
+}
+.demoTekst{
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 8%;
+}
+.pasek-niebieski{
+    padding-top: 2px;
+    background-color: #7cd4f3;
+    width: 85% !important;
+}
+.pasek-pomarancz{
+    padding-top: 2px;
+    background-color: #f5d603;
+    width: 85% !important;
+}
+.card{
+    width: 140% !important;
+    height: 110%;
+    margin-bottom: 10%;
+    border-radius: 10px !important;
+}
+@keyframes blueshadow{
+    0%{box-shadow: 1px 1px 15px 1px #0ff;}
+    50%{box-shadow: 1px 1px 15px 15px #0ff;}
+    100%{box-shadow: 1px 1px 15px 1px #0ff;}
+}
+.card1{
+    box-shadow: 1px 1px 15px 1px #0ff;
+}
+.card1:hover{
+    animation-name: blueshadow;
+    animation-duration: 1s;
+}
+@keyframes orangeshadow{
+    0%{box-shadow: 1px 1px 15px 1px #f7de35;}
+    50%{box-shadow: 1px 1px 15px 15px #f7de35;}
+    100%{box-shadow: 1px 1px 15px 1px #f7de35;}
+}
+.card2{
+    box-shadow: 1px 1px 25px 1px #f7de35;
+}
+.card2:hover{
+    animation-name: orangeshadow;
+    animation-duration: 1s;
+}
+.card-text{
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.demoBtn1{
+    width: 60%;
+    height: 10%;
+    color: #FFF !important;
+    background: rgb(117,207,238);
+    background: linear-gradient(90deg, rgba(117,207,238,1) 0%, rgba(5,153,205,1) 100%);
+    border-radius: 20px !important;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    -ms-transform: translate(-95%, -50%);
+    transform: translate(-50%, -50%);
+    margin-top: -25px;
+}
+.demoBtn2{
+    width: 60%;
+    height: 10%;
+    color: #FFF !important;
+    background: rgb(250,228,112);
+    background: linear-gradient(90deg, rgba(250,228,112,1) 0%, rgba(245,197,3,1) 100%);
+    border-radius: 20px !important;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    -ms-transform: translate(-95%, -50%);
+    transform: translate(-50%, -50%);
+    margin-top: -25px;
+}
+@media (max-width: 765px){
+    .card{
+        width: 100% !important;
+        height: 95%;
+    }
+    .demoBtn1{
+        margin-top: 0%;
+    }
+    .demoBtn2{
+        margin-top: 0%;
+    }
+}
+
+/* dol */
+.bottom{
+    background-image: url("img/dolTlo.png");
+    background-size: cover;
+}
+.bottomText{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+/* footer */
+.footer1{
+    background-image: url("img/footerBg.png");
+    background-size: cover;
+    border-top:1px solid #73cfef;
+}
